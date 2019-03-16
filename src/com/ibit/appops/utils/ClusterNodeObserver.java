@@ -1,9 +1,9 @@
-package com.equinix.appops.utils;
+package com.ibit.appops.utils;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
-import com.equinix.appops.model.domain.ClusterNode;
+import com.ibit.appops.model.domain.ClusterNode;
 
 public class ClusterNodeObserver implements PropertyChangeListener {
     

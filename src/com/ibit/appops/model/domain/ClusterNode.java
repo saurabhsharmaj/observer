@@ -1,4 +1,4 @@
-package com.equinix.appops.model.domain;
+package com.ibit.appops.model.domain;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;

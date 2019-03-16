@@ -1,7 +1,7 @@
-package com.equinix.appops;
+package com.ibit.appops;
 
-import com.equinix.appops.model.domain.ClusterNode;
-import com.equinix.appops.utils.ClusterNodeObserver;
+import com.ibit.appops.model.domain.ClusterNode;
+import com.ibit.appops.utils.ClusterNodeObserver;
 
 public class App {
 
