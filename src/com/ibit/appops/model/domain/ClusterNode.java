@@ -38,9 +38,9 @@ public class ClusterNode {
 	
 	private List<PropertyChangeListener> listener = new ArrayList<PropertyChangeListener>();
 	
-	private void notifyListeners(Object object, String property, Character oldValue, Character newValue) {
+	private void notifyListeners(ClusterNode clusterNode, String property, Character oldValue, Character newValue) {
         for (PropertyChangeListener name : listener) {
-            name.propertyChange(new PropertyChangeEvent(this, property, oldValue, newValue));
+            name.propertyChange(new PropertyChangeEvent(clusterNode, property, oldValue, newValue));
         }
     }
 
